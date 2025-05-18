@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NovyTrenink"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:id="@+id/containerCviky"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp" />
+
+    </ScrollView>
+    <Button
+        android:id="@+id/btnVybratObrazek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vybrat obrázek" />
+    <Button
+        android:id="@+id/btnFotit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vyfotit" />
+
+
+    <ImageView
+        android:id="@+id/imagePreview"
+        android:layout_width="172dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btnPridatCvik"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:text="Přidat cvik" />
+
+    <Button
+        android:id="@+id/btnUlozitTrenink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uložit trénink" />
+
+
+</LinearLayout>

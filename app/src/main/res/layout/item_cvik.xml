@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/etNazev"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="2"
+        android:hint="Cvik" />
+
+    <EditText
+        android:id="@+id/etSerie"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:hint="Série"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etOpakovani"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:hint="Opak."
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etVaha"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="80dp"
+        android:hint="Váha"
+        android:inputType="numberDecimal" />
+</LinearLayout>
