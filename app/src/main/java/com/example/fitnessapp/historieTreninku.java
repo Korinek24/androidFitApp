@@ -42,8 +42,8 @@ public class historieTreninku extends AppCompatActivity {
             public void onItemClick(Trenink trenink) {
                 // Po kliknutí na trénink se přejde na detail tréninku
                 Intent intent = new Intent(historieTreninku.this, DetailTreninkuActivity.class);
-                intent.putExtra("treninkId", trenink.getId());       // <-- důležité!
-                intent.putExtra("treninkDatum", trenink.getDatum()); // volitelné
+                intent.putExtra("treninkId", trenink.getId());      
+                intent.putExtra("treninkDatum", trenink.getDatum()); 
                 intent.putExtra("treninkObrazek", trenink.getObrazekPath());
                 startActivity(intent);
             }
